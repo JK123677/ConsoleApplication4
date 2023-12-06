@@ -26,3 +26,7 @@ void Observer::RemoveMeFromTheList() {
 void Observer::PrintInfo() {
 	std::cout << "Observer \"" << this->number_ << "\": a new message is available --> " << this->message_from_subject_ << "\n";
 }
+
+void Observer::hehe() {
+	std::cout << "hehehehehe";
+}
