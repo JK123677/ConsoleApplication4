@@ -11,6 +11,7 @@ public:
 	void Update(const std::string &message_from_subject) override;
 	void RemoveMeFromTheList();
 	void PrintInfo();
+	void hehe();
 
 private:
 	std::string message_from_subject_;
