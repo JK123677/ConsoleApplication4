@@ -27,9 +27,15 @@ void Subject::CreateMessage(std::string message) {
 	Notify();
 }
 
+void Subject::LoremIpsum()
+{
+	std::cout << "Lorem iupsum" << std::endl;
+}
+
 void Subject::HowManyObserver() {
 	std::cout << "There are " << list_observer_.size() << " observers in the list.\n";
 }
+
 
 void Subject::SomeBusinessLogic() {
 	this->message_ = "change message message";

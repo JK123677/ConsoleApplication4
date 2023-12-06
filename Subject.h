@@ -12,6 +12,7 @@ public:
 	void Detach(IObserver *observer) override;
 	void Notify() override;
 	void CreateMessage(std::string message = "Empty");
+	void LoremIpsum();
 	void HowManyObserver();
 	void SomeBusinessLogic();
 

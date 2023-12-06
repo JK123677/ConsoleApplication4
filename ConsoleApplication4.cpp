@@ -1,8 +1,8 @@
 ﻿#include "Subject.h"
 #include "Observer.h"
-#include "ClientCode.h"
+#include "ClientCode3.h"
 
 int main() {
-	ClientCode();
+	ClientCode3();
 	return 0;
 }
